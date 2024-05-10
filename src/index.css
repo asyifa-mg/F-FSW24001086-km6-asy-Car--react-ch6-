@@ -1,68 +1,146 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
-  margin: 0;
+  font-family: Helvetica;
+}
+
+main {
+  background-color: #f1f3ff;
+  min-height: 500px;
+}
+
+.whyus {
+  margin-top: 100px;
+}
+
+.whyus .feature {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+  padding: 18px;
+  margin: 5px 0;
+}
+
+.btn-primary {
+  border-radius: 2px;
+  color: #ffff;
+  background-color: #5cb85f;
+}
+
+.btn-sewa {
+  background-color: #5cb85f;
+  color: #ffff;
+  border-radius: 0;
+}
+
+.btn-sewa:hover {
+  color: #5cb85f;
+  background-color: #ffffff;
+  border: 1px solid #5cb85f;
+}
+
+.carousel {
+  background-color: #f1f3ff;
+  width: 832px;
+  height: 270px;
+  /* margin: auto; */
+}
+
+.carousel-control-prev-icon {
+  background-image: url("./assets/images/Vector.svg");
+  margin-top: 50px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("./assets/images/Vector-kanan.svg");
+  margin-top: 50px;
+}
+
+.nav-pills {
+  font-weight: 400px;
+  --bs-nav-pills-link-active-color: #f1f3ff;
+  --bs-nav-pills-link-active-bg: #5cb85f;
+  font-family: Helvetica;
+}
+.nav-link {
+  color: #000000;
+  font-family: Helvetica;
+}
+
+.page-home-corporate-card {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.page-home-corporate-card-title {
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
 }
 
-button {
+.page-home-corporate-card-description {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*cars.html*/
+.search {
+  margin-top: -50px;
+}
+
+.search .search__card {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.search .search__card .search__time .form-select {
+  background-image: url("../images/fi_clock.png");
+  background-size: 20px auto;
+}
+
+.search .search__card .form-select:hover {
+  border: 1px solid #5cb85f;
+  border-radius: 2px;
+}
+
+.search .search__card .form-select option:hover,
+.search .search__card .form-select option:checked {
+  background: #c9e7ca;
+  color: #5cb85f;
+}
+
+.cars {
+  margin-top: 30px;
+}
+
+.cars .card {
+  width: 340px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.cars .card .card-img-top {
+  width: 320px;
+  height: 180px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cars .card .cars__p {
+  font-size: 14px;
+  line-height: 20px;
+  height: 100px;
 }

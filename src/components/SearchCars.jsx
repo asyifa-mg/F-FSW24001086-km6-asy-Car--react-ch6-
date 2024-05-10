@@ -1,6 +1,6 @@
 import React from "react";
 
-const SearchMobil = () => {
+const SearchCars = () => {
   return (
     <>
       <section className="search">
@@ -10,7 +10,11 @@ const SearchMobil = () => {
               <div className="row search__card mx-lg-5 py-3 px-4">
                 <div className="col-lg-auto col-xl-2 col-xxl-3 col-md-auto">
                   <label>Tipe Driver</label>
-                  <select className="form-select" aria-label="Default select example" id="tipeDriver">
+                  <select
+                    className="form-select"
+                    aria-label="Default select example"
+                    id="tipeDriver"
+                  >
                     <option value="default" selected>
                       Pilih Tipe Driver
                     </option>
@@ -29,7 +33,11 @@ const SearchMobil = () => {
                 </div>
                 <div className="col-lg-auto col-xl-auto col-md-auto search__time">
                   <label>Pilih Waktu</label>
-                  <select className="form-select" aria-label="Default select example" id="waktuJemput">
+                  <select
+                    className="form-select"
+                    aria-label="Default select example"
+                    id="waktuJemput"
+                  >
                     <option value="false" selected>
                       Pilih Waktu
                     </option>
@@ -41,7 +49,9 @@ const SearchMobil = () => {
                   </select>
                 </div>
                 <div className="col-lg-auto col-xl-auto col-md-auto">
-                  <label className="fw-light">Jumlah Penumpang (opsional)</label>
+                  <label className="fw-light">
+                    Jumlah Penumpang (opsional)
+                  </label>
                   <div className="input-group">
                     <input
                       type="search"
@@ -51,7 +61,11 @@ const SearchMobil = () => {
                       defaultValue="0"
                     />
                     <span className="input-group-text bg-white">
-                      <img src="./assets/images/fi_users.png" width="20px" alt="Users" />
+                      <img
+                        src="./assets/images/fi_users.png"
+                        width="20px"
+                        alt="Users"
+                      />
                     </span>
                   </div>
                 </div>
@@ -93,18 +107,27 @@ const SearchMobil = () => {
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2">
                     <b>
-                      <a href="#our-services" className="nav-link p-0 text-body-secondary">
+                      <a
+                        href="#our-services"
+                        className="nav-link p-0 text-body-secondary"
+                      >
                         Our Services
                       </a>
                     </b>
                   </li>
                   <li className="nav-item mb-2">
-                    <a href="#why-us" className="nav-link p-0 text-body-secondary">
+                    <a
+                      href="#why-us"
+                      className="nav-link p-0 text-body-secondary"
+                    >
                       Why Us
                     </a>
                   </li>
                   <li className="nav-item mb-2">
-                    <a href="#testimonials" className="nav-link p-0 text-body-secondary">
+                    <a
+                      href="#testimonials"
+                      className="nav-link p-0 text-body-secondary"
+                    >
                       Testimonial
                     </a>
                   </li>

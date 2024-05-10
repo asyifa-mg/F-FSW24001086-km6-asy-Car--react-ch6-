@@ -1,6 +1,6 @@
 import React from "react";
 
-export const OurService = () => {
+export const OurServices = () => {
   return (
     <section className="content" id="our-services">
       <div className="container">

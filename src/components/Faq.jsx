@@ -1,4 +1,5 @@
 import React from "react";
+
 export const Faq = () => {
   return (
     <section id="faq">
@@ -6,7 +7,6 @@ export const Faq = () => {
         <div className="row featurette mt-5">
           <div className="col-md-7 order-md-5">
             <div className="accordion" id="accordionExample">
-
               <div className="accordion-item mt-3">
                 <h2 className="accordion-header" id="headingOne">
                   <button
@@ -34,7 +34,6 @@ export const Faq = () => {
                 </div>
               </div>
 
-
               <div className="accordion-item mt-3">
                 <h2 className="accordion-header" id="headingTwo">
                   <button
@@ -61,7 +60,6 @@ export const Faq = () => {
                   </div>
                 </div>
               </div>
-
 
               <div className="accordion-item mt-3">
                 <h2 className="accordion-header" id="headingThree">
@@ -91,7 +89,6 @@ export const Faq = () => {
                   </div>
                 </div>
               </div>
-
 
               <div className="accordion-item mt-3">
                 <h2 className="accordion-header" id="headingFour">
