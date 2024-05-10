@@ -1,6 +1,6 @@
 import React from "react";
 
-const SearchCars = () => {
+export const SearchCars = () => {
   return (
     <>
       <section className="search">
@@ -92,7 +92,6 @@ const SearchCars = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <section id="footer">
         <div className="container-xxl mt-5">
           <footer className="py-5">
@@ -207,5 +206,3 @@ const SearchCars = () => {
     </>
   );
 };
-
-export default SearchMobil;
