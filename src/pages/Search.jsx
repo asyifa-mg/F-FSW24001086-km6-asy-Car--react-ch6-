@@ -2,4 +2,4 @@ const Search = () => {
   return <div>search</div>;
 };
 
-export default SearchMobil;
+export default Search;

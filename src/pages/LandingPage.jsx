@@ -7,7 +7,7 @@ import { Banner } from "../components/Banner";
 import { Faq } from "../components/Faq";
 import { Footer } from "../components/Footer";
 
-function LandingPage() {
+export default function LandingPage() {
   return (
     <>
       <Navbar />
@@ -20,5 +20,3 @@ function LandingPage() {
     </>
   );
 }
-
-export default LandingPage;
