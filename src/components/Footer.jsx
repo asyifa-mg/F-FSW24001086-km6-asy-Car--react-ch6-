@@ -6,14 +6,12 @@ export const Footer = () => {
       <div className="container">
         <footer className="py-5">
           <div className="row">
-            {/* Kolom Kontak */}
             <div className="col-6 col-md-3 mb-3">
               <p>Jalan Suroyo No. 161 Mayangan Kota Probolinggo 672000</p>
               <p>binarcarrental@gmail.com</p>
               <p>081-233-334-808</p>
             </div>
 
-            {/* Kolom Layanan */}
             <div className="col-6 col-md-3">
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
@@ -50,7 +48,6 @@ export const Footer = () => {
               </ul>
             </div>
 
-            {/* Kolom Sosial Media */}
             <div className="col-6 col-md-2 mb-3">
               <p>Connect with us</p>
               <ul className="nav justify-content-center">
@@ -96,7 +93,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <img
-                    src="./assets/images/icon_twitch.svg"
+                    src="./images/icon_twitch.svg"
                     className="d-block mx-lg-auto img-fluid"
                     alt="Twitch"
                     loading="lazy"
@@ -107,7 +104,6 @@ export const Footer = () => {
               </ul>
             </div>
 
-            {/* Kolom Hak Cipta */}
             <div className="col-6 col-md-2 mb-3">
               <p>Copyright Binar 2022</p>
               <img

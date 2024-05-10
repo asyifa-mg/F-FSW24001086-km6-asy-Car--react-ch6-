@@ -10,7 +10,7 @@ export const Navbar = () => {
             className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
           >
             <img
-              src="./asset/images/logo.svg"
+              src=".//images/logo.svg"
               className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="100px"
