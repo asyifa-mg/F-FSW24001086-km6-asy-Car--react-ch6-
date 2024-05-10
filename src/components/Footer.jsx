@@ -93,7 +93,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <img
-                    src="./images/icon_twitch.svg"
+                    src="./assets/images/icon_twitch.svg"
                     className="d-block mx-lg-auto img-fluid"
                     alt="Twitch"
                     loading="lazy"
